@@ -1,0 +1,16 @@
+# Model files and checkpoints (the weights live on the Hugging Face Hub)
+banglat5-xlsum/
+banglat5-xlsum-best/
+*.safetensors
+*.bin
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# Secrets
+.env
+*.token

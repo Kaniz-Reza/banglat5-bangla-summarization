@@ -1,0 +1,10 @@
+# Tested on Kaggle (Python 3.12.13, 2x Tesla T4). torch comes preinstalled on Kaggle.
+transformers==5.0.0
+datasets<4.0
+accelerate
+sentencepiece
+huggingface_hub
+pyonmttok
+git+https://github.com/csebuetnlp/normalizer
+git+https://github.com/abhik1505040/bengali-stemmer
+git+https://github.com/csebuetnlp/xl-sum.git#subdirectory=multilingual_rouge_scoring
